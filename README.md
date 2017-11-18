@@ -1,6 +1,8 @@
 [![official JetBrains project](http://jb.gg/badges/official-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 
-Kotlin Koans
+Kotlin Koans - TODO make wrapup slides of real world examples, gotchas, libraries and tools, how I get through being stuck, links to other talks/resources/kotlin weekly.
+
+Brian todo: Intro/Selling clean up of slides for each koan/example
 ===========
 
 Kotlin Koans Workshop is a series of exercises to get you familiar with the Kotlin Syntax. 
