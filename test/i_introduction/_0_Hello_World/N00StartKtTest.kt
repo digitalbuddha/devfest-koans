@@ -5,6 +5,6 @@ import org.junit.Test
 
 class N00StartKtTest {
     @Test fun testOk() {
-        assertEquals("OK", task0())
+        assertEquals("Hello DevFest", task0())
     }
 }
