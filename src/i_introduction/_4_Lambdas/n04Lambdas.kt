@@ -6,7 +6,7 @@ import util.doc4
 fun example() {
 
     val sum = { x: Int, y: Int -> x + y }
-    val square: (Int) -> Int = { x -> x * x }
+    val square: (Int) -> Int = { it*it}
 
     sum(1, square(2)) == 5
 }
@@ -14,11 +14,11 @@ fun example() {
 fun todoTask4(collection: Collection<Int>): Nothing = TODO(
     """
         Task 4.
-        Rewrite 'JavaCode4.task4()' in Kotlin using lambdas:
+        Rewrite 'Finder.containsEven()' in Kotlin using lambdas:
         return true if the collection contains an even number.
-        You can us the kotlin collections class 
+        You can use the kotlin collections class extension method `any` along with a lambda
     """,
     documentation = doc4(),
-    references = { JavaCode4().task4(collection) })
+    references = { Finder().containsEven(collection) })
 
-fun task4(collection: Collection<Int>): Boolean = collection.any { it % 2 == 0; }
+fun task4(collection: Collection<Int>): Boolean = TODO()//collection.any { it % 2 == 0; }

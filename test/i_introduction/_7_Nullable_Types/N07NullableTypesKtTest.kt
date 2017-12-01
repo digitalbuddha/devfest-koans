@@ -2,7 +2,7 @@ package i_introduction._7_Nullable_Types
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-
+//TODO Mike: rewrite to instead be a sample of json parsing with nullable types
 class N07NullableTypesKtTest {
     fun testSendMessageToClient(
             client: Client?,

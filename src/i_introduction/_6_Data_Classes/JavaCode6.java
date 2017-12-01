@@ -4,21 +4,21 @@ import util.JavaCode;
 
 public class JavaCode6 extends JavaCode {
 
-    public static class Person {
+    public static class Workshop {
         private final String name;
-        private final int age;
+        private final String location;
 
-        public Person(String name, int age) {
+        public Workshop(String name, String location) {
             this.name = name;
-            this.age = age;
+            this.location = location;
         }
 
         public String getName() {
             return name;
         }
 
-        public int getAge() {
-            return age;
+        public String getLocation() {
+            return location;
         }
     }
 }
