@@ -20,7 +20,7 @@ fun todoTask0(): Nothing = TODO(
         Let's start! Make the function 'task0' return "Hello Devfest". Note that you can return expression directly.
     """,
     documentation = doc0(),
-    references = { task0(); "OK" }
+    references = { task0(); "Hello DevFest" }
 )
 
 fun task0(): String {
