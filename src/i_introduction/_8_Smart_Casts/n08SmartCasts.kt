@@ -17,7 +17,7 @@ fun todoTask8(expr: Expr): Nothing = TODO(
         """
         Task 8.
         Simplify the implementation of the 'eval' function above using smart casts and 'when' expression.
-        The 'JavaCode8.eval' method provides the similar functionality written in Java.
+        The commented out `whenExample' function provides the similar pattern.
     """,
         documentation = doc8(),
         references = { JavaCode8().eval(expr) })
