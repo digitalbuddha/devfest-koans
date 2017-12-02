@@ -21,4 +21,4 @@ fun todoTask4(collection: Collection<Int>): Nothing = TODO(
     documentation = doc4(),
     references = { Finder().containsEven(collection) })
 
-fun task4(collection: Collection<Int>): Boolean = TODO()
+fun task4(collection: Collection<Int>): Boolean = collection.any { it % 2 == 0; }
