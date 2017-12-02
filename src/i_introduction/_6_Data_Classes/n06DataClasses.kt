@@ -9,15 +9,14 @@ fun todoTask6(): Nothing = TODO(
         Then add a modifier `data` to the resulting class.
         This keyword means the compiler will generate a bunch of useful methods in this class:
         `equals`/`hashCode`, `toString` and some others.
-        The `task6` function should return a list of persons.
+        The `task6` function should return a list of workshop.
     """,
     documentation = doc6(),
     references = { JavaCode6.Workshop("Basket Weaving", "NYC") }
 )
-//class Workshop
 
 fun task6(): List<JavaCode6.Workshop> {
     todoTask6()
-    //return listOf(Workshop())
+    //return listOf(Workshop("",""))
 }
 
