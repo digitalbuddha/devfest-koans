@@ -34,7 +34,8 @@ fun doc6() {}
 fun doc7() {}
 
 /**
- * @see <a href="https://kotlinlang.org/docs/reference/typecasts.html#smart-casts">Smart casts</a>,
+ * @see <a href="https://kotlinlang.org/docs/reference/null-safety.html#elvis-operator">Elvis operator</a>
+ *      <a href="https://kotlinlang.org/docs/reference/typecasts.html#smart-casts">Smart casts</a>,
  *      <a href="https://kotlinlang.org/docs/reference/control-flow.html#when-expression">When</a>,
  *      <a href="https://kotlinlang.org/docs/reference/sealed-classes.html">Sealed classes</a>
  */
