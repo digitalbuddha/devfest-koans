@@ -4,11 +4,10 @@ import util.TODO
 import util.doc8
 
 
-
-
 // 'sealed' modifier restricts the type hierarchy:
 // all the subclasses must be declared in the same file
 sealed class Expr
+
 class Num(val value: Int) : Expr()
 class Sum(val left: Expr, val right: Expr) : Expr()
 
@@ -31,13 +30,8 @@ fun todoTask8(expr: Expr): Nothing = TODO(
 
 
 fun eval(expr: Expr): Int {
-    if (expr is Num) {
-        return (expr as Num).value
+    return when (expr) {
+        is Num -> expr.value
+        is Sum -> eval(expr.left) + eval(expr.right)
     }
-    if (expr is Sum) {
-        val sum = expr as Sum
-        return eval(sum.left) + eval(sum.right)
-    }
-    throw IllegalArgumentException("Unknown expression")
 }
-
