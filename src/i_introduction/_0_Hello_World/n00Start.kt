@@ -23,6 +23,4 @@ fun todoTask0(): Nothing = TODO(
     references = { task0(); "Hello DevFest" }
 )
 
-fun task0(): String {
-    return todoTask0()
-}
+fun task0() = "Hello DevFest"
