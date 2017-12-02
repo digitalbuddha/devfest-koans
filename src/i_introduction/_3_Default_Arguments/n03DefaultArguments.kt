@@ -20,10 +20,9 @@ fun helloConference(workshopName: String) =
 fun helloConference(conferenceName: String, workshopName: String) =
         "Hello $conferenceName hope you are enjoying the $workshopName"
 
-fun hellConferenceWithDefaults(conferenceName: String, workshopName: String) =
+fun hellConferenceWithDefaults(conferenceName: String = "DevFestNYC", workshopName: String) =
         "Hello $conferenceName hope you are enjoying the $workshopName Workshop"
 
 fun task3(): String {
-    todoTask3()
-//    return hellConferenceWithDefaults(workshopName = "Kotlin")
+    return hellConferenceWithDefaults(workshopName = "Kotlin")
 }
