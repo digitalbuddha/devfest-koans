@@ -23,9 +23,8 @@ fun todoTask2(): Nothing = TODO(
     documentation = doc2())
 
 fun task2(conferenceName: String, workshopName: String): String {
-    todoTask2()
-    return  helloConference(workshopName,conferenceName);
+    return helloConference(workshopName = workshopName, conferenceName = conferenceName)
 }
 
-fun helloConference(conferenceName:String, workshopName:String) =
+fun helloConference(conferenceName: String, workshopName: String) =
         "Hello $conferenceName hope you are enjoying the $workshopName"
