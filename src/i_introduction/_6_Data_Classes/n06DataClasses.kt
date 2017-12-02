@@ -14,9 +14,9 @@ fun todoTask6(): Nothing = TODO(
     documentation = doc6(),
     references = { JavaCode6.Workshop("Basket Weaving", "NYC") }
 )
+data class Workshop(val name: String, val location: String)
 
-fun task6(): List<JavaCode6.Workshop> {
-    todoTask6()
-    //return listOf(Workshop("",""))
+fun task6(): List<Workshop> {
+    return listOf(Workshop("Kotlin", "DevFestNYC"), Workshop("Flutter", "DevFestNYC"))
 }
 
